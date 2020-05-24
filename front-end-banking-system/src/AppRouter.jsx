@@ -12,8 +12,9 @@ class AppRouter extends Component{
         <>
             <Router>
              <Switch>
-               <Route path="/addCustomer" component={AddUpdateCustomer} />
+               <Route path="/" component={LoginComponent} />
                <Route path="/login" component={LoginComponent} />
+               <Route path="/addCustomer" component={AddUpdateCustomer} />
                <Route path="/home" component={ListCustomersComponent} />
                <Route path="/updateCustomer/:id" component={AddUpdateCustomer} />
                <Route path="/showCustomer/:id" component={CustomerDetails} />
