@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: #ebebff;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header{
+  height: 300px;
+  width: auto;
+  background-color: blue;
+  margin-bottom: 30px;
+}
+
+#dbheader{
+  width: 50%;
+  color: #051cb0;
+  margin: auto;
+}
+
+.dblogo{
+  width: 60px;
+  height: 50px;
+}
+
+.dbFullLogo{
+  width: 26%;
+  height: 100px;
+}
+
+.container{
+  padding-bottom: 50px;
+}
+
+.top{
+  padding-top: 30px;
+  /* background-color: #d3e3ff; */
+  background-color: #e0ebff;
+}
+
+.headerclass{
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.maincontainer{
+  background-color: #e7ebef;
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+
+.mainheader{
+  padding-top: 35px;
+}
+
+.footer{
+  background-color: #12122a;
+  height: 80px;
+}
+
+.mainPictureDiv{
+  margin-bottom: 20px;
+}

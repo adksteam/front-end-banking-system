@@ -1,0 +1,21 @@
+
+.modalclass{
+  border-radius: 10px;
+}
+
+.modalbtncontainer{
+  padding: 25px;
+  padding-top: 10px;
+}
+
+.modalbtn{
+  width: 70px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.modalmsg{
+  padding-top: 15px;
+  width: 50%;
+  margin: auto;
+}

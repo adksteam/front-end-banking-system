@@ -1,0 +1,17 @@
+.detailLabel{
+  display: inline;
+  font-size: 22px;
+}
+
+.fieldspan{
+  padding-right: 10px;
+}
+
+.tableclass{
+  text-align: left;
+}
+
+.navigateBtn{
+  margin-left: 5px;
+  margin-right: 5px;
+}

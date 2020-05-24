@@ -1,0 +1,129 @@
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  width: 540px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 26px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.mandatory {
+  margin: 0px;
+  padding: 0px;
+  color: red;
+  font-size: 15px;
+}
+input {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 180px;
+}
+
+.list {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+button {
+  margin: auto 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.formContainer {
+  text-align: center;
+}
+
+.header {
+  background-color: #0018a8;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit {
+  padding: 20px;
+  background-color: #0018a8;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  height: 20px;
+  flex: 0 0 200px;
+}
+
+.header{
+  height: 300px;
+  width: auto;
+  color: blue;
+}
+
+.formclass{
+  width: 50%;
+  margin: auto;
+}
+
+.labelclass{
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.formclass{
+  padding: 5%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#loginbutton{
+  text-align: center;
+}
+
+#modalclass{
+  width: 250px;
+  padding: 25px;
+}
+
+.updateBtn{
+  background-color: #1a2846;
+  color: white;
+  transition: 0.6s;
+}
+
+.updateBtn:hover{
+  background-color: white;
+  color:  #1a2846;
+}
+
+.deleteBtn{
+  background-color: #212529;
+  color: white;
+  transition: 0.6s;
+}
+
+.deleteBtn:hover{
+  background-color: white;
+  color: #212529;
+}
+
+#addBtnRow{
+  padding-right: 70px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  padding-left: 70px;
+}
